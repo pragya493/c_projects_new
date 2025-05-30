@@ -15,8 +15,17 @@ int reverse(int num){
 }
 
 int main(){
-    int num = 234567;
+    int num = 12321;
     
-    printf("The reverse of num %d is %d", num, reverse(num));
+    int rev = reverse(num);
+    printf("The reverse of num %d is %d\n", num, rev);
+
+    //Palindrome numbers are those numbers that remain the same 
+    //even after reversing the order of their digits
+    if(num == rev)
+        printf("The no. %d is a palindrome\n",num);
+    else
+        printf("The no. %d is not a palindrome\n",num);
+
     return 0;
 }
