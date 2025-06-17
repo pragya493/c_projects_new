@@ -1,3 +1,7 @@
+//Longest Common Subsequence (LCS) problem
+//finds the longest sequence that appears in the same relative order, 
+//but not necessarily contiguously, in two given strings.
+
 #include <stdio.h>
 #include <string.h>
 
