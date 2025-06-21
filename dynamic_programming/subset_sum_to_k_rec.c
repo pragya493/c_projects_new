@@ -1,3 +1,4 @@
+//susbet sum to K
 //Given an array of n integers and an integer K, 
 //determine whether there exists a subset of the array whose sum is exactly K.
 
