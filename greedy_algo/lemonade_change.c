@@ -1,3 +1,5 @@
+//denomination of 5, 10, 20
+
 #include <stdio.h>
 #include <stdbool.h>
 
